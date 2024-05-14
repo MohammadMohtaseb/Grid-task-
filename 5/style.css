@@ -1,6 +1,6 @@
 .cont{
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-columns: repeat(60, 1fr);
     grid-template-rows: repeat(7,1fr);
     text-align: center;
     gap: 10px;
